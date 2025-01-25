@@ -1,0 +1,108 @@
+.article-page {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .comments-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .comments-section h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .comment-form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #af4c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .comments-list {
+    margin-top: 30px;
+  }
+  
+  .comment {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    color: #af4c4c;
+  }
+  
+  .comment-date {
+    color: #666;
+  }
+  
+  .comment-content {
+    color: white;
+    line-height: 1.4;
+  }
+  
+  /* Responsywność */
+  @media (max-width: 850px) {
+    .article-content,
+    .comments-section {
+      width: 90%;
+    }
+  }
