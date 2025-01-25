@@ -1,0 +1,84 @@
+.kontakt-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212; /* Ciemne tło */
+  color: white; /* Biały kolor tekstu */
+}
+
+.kontakt-page h1 {
+  font-size: 2rem; /* Duży nagłówek */
+  margin-bottom: 20px;
+  color: white; /* Nagłówek "Kontakt" w kolorze białym */
+}
+
+.kontakt-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Wyśrodkowanie formularza */
+  gap: 15px;
+  max-width: 500px; /* Ograniczenie szerokości formularza */
+  margin: 0 auto; /* Wyśrodkowanie formularza na stronie */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Pola zajmują pełną szerokość formularza */
+  text-align: left;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white; /* Kolor napisów "Adres e-mail" i "Wiadomość" */
+}
+
+input,
+textarea {
+  width: 95%; /* Pola zajmują pełną szerokość */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px; /* Zaokrąglenie krawędzi */
+  background-color: #1e1e1e; /* Ciemne tło pola */
+  color: white; /* Kolor tekstu w polach */
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #777; /* Kolor placeholdera */
+}
+
+textarea {
+  resize: vertical; /* Pozwól zmieniać tylko wysokość */
+  min-height: 100px;
+}
+
+.submit-button {
+  background-color: #af4c4c; /* Zielony przycisk */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px; /* Dopasowanie zaokrągleń */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #45a049; /* Jaśniejszy zielony przy najechaniu */
+}
+
+.success-message {
+  color: #4CAF50; /* Zielony kolor potwierdzenia */
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Opcjonalne: Dodanie cienia wokół formularza */
+.kontakt-form {
+  padding: 20px;
+  background-color: #1e1e1e; /* Ciemne tło dla formularza */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

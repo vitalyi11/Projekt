@@ -1,0 +1,23 @@
+.home-page {
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.blog-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.blog-title .gaming {
+  color: #ff4500;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
