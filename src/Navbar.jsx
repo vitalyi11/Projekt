@@ -25,7 +25,9 @@ const Navbar = ({ onFilterTags }) => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src={logoimage} alt="Logo" />
+        <Link to="/">
+          <img src={logoimage} alt="Logo" />
+        </Link>
       </div>
       <ul className="nav-links">
         <li>
