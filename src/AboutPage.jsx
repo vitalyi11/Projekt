@@ -4,11 +4,12 @@ import "./AboutPage.css";
 const AboutPage = () => {
   return (
     <div className="about-page">
-      <h1>O nas</h1>
-      <p>
-        Jesteśmy zespołem pasjonatów LIGI LEGEND i technologii. Naszym celem jest
-        dostarczanie rzetelnych informacji i ciekawostek dla graczy.
-      </p>
+      <h1>Twórcy</h1>
+      <h2 class="imiona">
+        <pre>
+        Kacper Kwiatek              Aleksandra Tworek
+        </pre>
+      </h2>
     </div>
   );
 };
