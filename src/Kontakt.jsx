@@ -19,7 +19,7 @@ const Kontakt = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form data submitted:", formData);
+    console.log("Check w konsoli (opcjonalnie)", formData);
     setIsSubmitted(true);
 
     setFormData({
