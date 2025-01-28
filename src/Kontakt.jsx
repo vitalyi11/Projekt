@@ -26,7 +26,6 @@ const Kontakt = () => {
       email: "",
       message: "",
     });
-
   };
 
   return (
