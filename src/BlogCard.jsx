@@ -14,7 +14,7 @@ const BlogCard = ({ section, title, description, image, tags, link }) => {
   return (
     <div className="blog-card" onClick={handleClick}>
       <h2>{section}</h2>
-      <img src={image} alt={title} className="blog-image" />
+      {image && <img src={image} alt={title} className="blog-image" />}
       <div className="blog-content">
         <h3>{title}</h3>
         <p>{description}</p>

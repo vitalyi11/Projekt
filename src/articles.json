@@ -1,0 +1,25 @@
+[
+    {
+      "section": "",
+      "title": "Recenzja gry Silent Hill 2",
+      "description": "Na dzień dobry oddychać można pełną immersją Silent Hill 2...",
+      "image": "./silent-hill.jpg",
+      "tags": ["Gry", "Horror"],
+      "link": "/article/silent-hill-2"
+    },
+    {
+      "section": "",
+      "title": "10 idealnych prezentów dla gracza!",
+      "description": "W świecie graczy pomysły na prezent to wyzwanie...",
+      "image": "./gamer-zone.jpg",
+      "tags": ["Porady", "Gracze"]
+    },
+    {
+      "section": "",
+      "title": "Przyszłość kart graficznych",
+      "description": "Czy to koniec ery kart graficznych z pamięcią 8 GB?",
+      "image": "./graphics.jpg",
+      "tags": ["Artykuł", "Dyskusje"]
+    }
+  ]
+  
