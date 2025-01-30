@@ -19,14 +19,13 @@ const Kontakt = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form data submitted:", formData);
+    console.log("Check w konsoli - opcjonalnie", formData);
     setIsSubmitted(true);
 
     setFormData({
       email: "",
       message: "",
     });
-
   };
 
   return (
@@ -58,7 +57,7 @@ const Kontakt = () => {
           ></textarea>
         </div>
         <button type="submit" className="submit-button">
-          Prześlij
+          Prześlij !!!
         </button>
       </form>
     </div>

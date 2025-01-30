@@ -99,7 +99,6 @@
     line-height: 1.4;
   }
   
-  /* Responsywność */
   @media (max-width: 850px) {
     .article-content,
     .comments-section {

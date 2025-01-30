@@ -7,6 +7,7 @@ import Kontakt from "./Kontakt";
 import Login from "./Login";
 import ArticlePage from "./ArticlePage";
 import "./App.css";
+import "./HomePage.css";
 
 const App = () => {
   const [selectedTags, setSelectedTags] = useState([]);

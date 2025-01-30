@@ -29,6 +29,7 @@ const ArticlePage = () => {
       <h1>Recenzja gry Silent Hill 2</h1>
       <div className="article-content">
         <p>Testowa strona dla recenzji Silent Hill 2</p>
+        <p>Dzień Dobry! Artykuł o recenzji gry ! </p>
       </div>
 
       <div className="comments-section">
